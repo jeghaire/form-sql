@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div>
+      <title><%= title %></title>
+      <% data.forEach((entry)=> {%>
+      <section>
+        <p><em> Name:</em> <%= entry.name %></p>
+        <p><em>Born Again: </em><%= entry.bornAgain ? "True" : "False" %></p>
+      </section>
+      <% }) %>
+    </div>
+    <a href="/reg">Add new member</a>
+  </body>
+</html>

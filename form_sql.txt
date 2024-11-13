@@ -1,0 +1,4 @@
+mkdir form_sql && cd form_sql
+npm init
+npm install express sequelize mysql2 cors --save
+touch index.js
